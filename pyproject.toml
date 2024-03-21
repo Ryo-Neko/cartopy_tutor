@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tutor-cartopy"
+version = "0.1.0"
+description = ""
+authors = ["Ryo Kaneko <deepkneko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cartopy = "^0.22.0"
+matplotlib = "^3.8.3"
+shapely = "^2.0.3"
+geopandas = "^0.14.3"
+jupyterlab = "^4.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
